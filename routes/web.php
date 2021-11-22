@@ -44,7 +44,7 @@ Route::get('skill', function () {
 })->name('skill');
 
 route::get("service",[postcontroller::class,'service'])->name('service');
-route::get("contact1",[postcontroller::class,'contact'])->name('contact1');
+//route::get("contact1",[postcontroller::class,'contact'])->name('contact1');
 
 
 /*=============================
